@@ -1,13 +1,13 @@
 Name:		om-mirror-selector
-Version:	0.0.1
-Release:	2
+Version:	0.0.2
+Release:	1
 Summary:	OpenMandriva Lx best mirror selector
 License:	GPLv2
 Group:		System/Configuration/Other
 URL:		https://github.com/OpenMandrivaSoftware/om-mirror-selector
-Source0:	https://github.com/OpenMandrivaSoftware/om-mirrot-selector/archive/%{version}/%{name}-%{version}.tar.gz
+Source0:	https://github.com/OpenMandrivaSoftware/om-mirror-selector/archive/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	systemd-macros
-Requires:	openmandriva-repos >= 4.0.1
+Requires:	openmandriva-repos >= 4.0-1
 Requires:	sed
 Requires:	coreutils
 Requires:	iputils
