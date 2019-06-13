@@ -1,5 +1,5 @@
 Name:		om-mirror-selector
-Version:	0.0.3
+Version:	0.1.0
 Release:	1
 Summary:	OpenMandriva Lx best mirror selector
 License:	GPLv2
@@ -30,7 +30,7 @@ install -m644 %{name}.service %{buildroot}%{_unitdir}/%{name}.service
 install -m644 %{name}.timer %{buildroot}%{_unitdir}/%{name}.timer
 
 cat > %{buildroot}%{_presetdir}/86-%{name}.preset << EOF
-enable %{name}.timer
+disable %{name}.timer
 EOF
 
 %post
