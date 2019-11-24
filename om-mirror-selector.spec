@@ -1,5 +1,5 @@
 Name:		om-mirror-selector
-Version:	0.1.1
+Version:	0.1.2
 Release:	1
 Summary:	OpenMandriva Lx best mirror selector
 License:	GPLv2
