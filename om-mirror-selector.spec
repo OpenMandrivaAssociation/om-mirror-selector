@@ -6,7 +6,7 @@ License:	GPLv2
 Group:		System/Configuration/Other
 URL:		https://github.com/OpenMandrivaSoftware/om-mirror-selector
 Source0:	https://github.com/OpenMandrivaSoftware/om-mirror-selector/archive/%{version}/%{name}-%{version}.tar.gz
-BuildRequires:	systemd-macros
+BuildRequires:	systemd-rpm-macros
 Requires:	openmandriva-repos >= 4.0-1
 Requires:	sed
 Requires:	coreutils
